@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c5bf8267-90e6-4d8a-95f3-9ade95c15328" name="Default Changelist" comment="" />
+    <list default="true" id="c5bf8267-90e6-4d8a-95f3-9ade95c15328" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1VJtHXuHadqSwwtwP6A4thahZJ9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -90,7 +97,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1576982939891</updated>
-      <workItem from="1576982945582" duration="4696000" />
+      <workItem from="1576982945582" duration="5351000" />
+      <workItem from="1577092703336" duration="178000" />
     </task>
     <servers />
   </component>
@@ -98,38 +106,38 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1485" height="249" key="GridCell.Tab.0.bottom" timestamp="1577000734221">
+    <state width="1485" height="249" key="GridCell.Tab.0.bottom" timestamp="1577001482091">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1485" height="249" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1577000734221" />
-    <state width="1485" height="249" key="GridCell.Tab.0.center" timestamp="1577000734221">
+    <state width="1485" height="249" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1577001482091" />
+    <state width="1485" height="249" key="GridCell.Tab.0.center" timestamp="1577001482091">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1485" height="249" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1577000734221" />
-    <state width="1485" height="249" key="GridCell.Tab.0.left" timestamp="1577000734221">
+    <state width="1485" height="249" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1577001482091" />
+    <state width="1485" height="249" key="GridCell.Tab.0.left" timestamp="1577001482091">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1485" height="249" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1577000734221" />
-    <state width="1485" height="249" key="GridCell.Tab.0.right" timestamp="1577000734221">
+    <state width="1485" height="249" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1577001482091" />
+    <state width="1485" height="249" key="GridCell.Tab.0.right" timestamp="1577001482091">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1485" height="249" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1577000734221" />
-    <state width="1485" height="249" key="GridCell.Tab.1.bottom" timestamp="1577000734221">
+    <state width="1485" height="249" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1577001482091" />
+    <state width="1485" height="249" key="GridCell.Tab.1.bottom" timestamp="1577001482092">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1485" height="249" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1577000734221" />
-    <state width="1485" height="249" key="GridCell.Tab.1.center" timestamp="1577000734221">
+    <state width="1485" height="249" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1577001482092" />
+    <state width="1485" height="249" key="GridCell.Tab.1.center" timestamp="1577001482092">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1485" height="249" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1577000734221" />
-    <state width="1485" height="249" key="GridCell.Tab.1.left" timestamp="1577000734221">
+    <state width="1485" height="249" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1577001482092" />
+    <state width="1485" height="249" key="GridCell.Tab.1.left" timestamp="1577001482091">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1485" height="249" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1577000734221" />
-    <state width="1485" height="249" key="GridCell.Tab.1.right" timestamp="1577000734221">
+    <state width="1485" height="249" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1577001482091" />
+    <state width="1485" height="249" key="GridCell.Tab.1.right" timestamp="1577001482092">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1485" height="249" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1577000734221" />
+    <state width="1485" height="249" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1577001482092" />
     <state x="176" y="0" key="SettingsEditor" timestamp="1576983040265">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -148,5 +156,6 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/dialogflow_webhook_weather_master$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1577000484998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/flask_weather_app$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1577092887458" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>
