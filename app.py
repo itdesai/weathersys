@@ -6,7 +6,7 @@ from flask_cors import CORS,cross_origin
 
 app = Flask(__name__)
 # owmapikey=os.environ.get('119242c426975bc98ee4f259b9551823') #or provide your key here
-owmapikey = '119242c426975bc98ee4f259b9551823'
+owmapikey = '67153440e27ba66037d41e78ad0ce570'
 owm = pyowm.OWM(owmapikey)
 
 
@@ -17,11 +17,11 @@ def webhook():
     req = request.get_json(silent=True, force=True)
 
     print("Request:")
-    print(json.dumps(req, indent=4))
+    print(json.dumps(req))
 
     res = processRequest(req)
 
-    res = json.dumps(res, indent=4)
+    res = json.dumps(res)
     print(res)
     r = make_response(res)
     r.headers['Content-Type'] = 'application/json'
@@ -32,7 +32,7 @@ def webhook():
 def processRequest(req):
     result = req.get("queryResult")
     parameters = result.get("parameters")
-    city = parameters.get("cityName")
+    city = parameters.get('geo-city')
     observation = owm.weather_at_place(city)
     w = observation.get_weather()
     latlon_res = observation.get_location()
@@ -62,4 +62,4 @@ def processRequest(req):
 if __name__ == '__main__':
     port = int(os.getenv('PORT', 5000))
     print("Starting app on port %d" % port)
-    app.run(debug=False, port=port, host='0.0.0.0')
+    app.run(debug=False, port=port)
